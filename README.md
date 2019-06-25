@@ -32,16 +32,16 @@ To compile code for the board, we will use the command line tool. [See these ins
 ## Download the code
 Clone this repository and its dependencies:
 
-    ```
-    $ mbed import https://github.com/janjongboom/dsa-firmware-2019
-    ```
+```
+$ mbed import https://github.com/ciiram/dsa-board-intro
+```
 
 ## Hello World
 To build the hello world application, run:
 
-    ```
-    $ mbed compile -m DISCO_L475VG_IOT01A -t GCC_ARM
-    ```
+```
+$ mbed compile -m DISCO_L475VG_IOT01A -t GCC_ARM
+```
 After compilation, transfer the the `.bin` file to the board. You should now see LED 1 blinking.
 ## HTS221 Temperature and Humidity Sensor
 
